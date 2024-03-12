@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thingspeak Data</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px 0;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Thingspeak Data</h1>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th>Čas</th>
+        <th>Teplota (°C)</th>
+        <th>Tlak (hPa)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div id="average-values"></div>
+  <script src="script.js"></script>
+</body>
+</html>
